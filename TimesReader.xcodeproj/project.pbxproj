@@ -3,27 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362365CC4BA337664C2C6392 /* Pods_TimesReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4871DF9BED181227F4E1D68 /* Pods_TimesReader.framework */; };
 		4AABAE9D229BF94F00ADC42E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AABAE9C229BF94F00ADC42E /* AppDelegate.swift */; };
-		4AABAE9F229BF94F00ADC42E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AABAE9E229BF94F00ADC42E /* ViewController.swift */; };
 		4AABAEA2229BF94F00ADC42E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AABAEA0229BF94F00ADC42E /* Main.storyboard */; };
 		4AABAEA5229BF94F00ADC42E /* TimesReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AABAEA3229BF94F00ADC42E /* TimesReader.xcdatamodeld */; };
 		4AABAEA7229BF95100ADC42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AABAEA6229BF95100ADC42E /* Assets.xcassets */; };
 		4AABAEAA229BF95100ADC42E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AABAEA8229BF95100ADC42E /* LaunchScreen.storyboard */; };
+		4AABAEB2229BF98F00ADC42E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AABAEB1229BF98F00ADC42E /* MainViewController.swift */; };
+		4AABAEB4229BFD1800ADC42E /* MostEmailedTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AABAEB3229BFD1800ADC42E /* MostEmailedTableTableViewController.swift */; };
+		4AABAEB6229BFDCA00ADC42E /* NYTimesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AABAEB5229BFDCA00ADC42E /* NYTimesData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3904E76711C69AF03FE585FB /* Pods-TimesReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimesReader.release.xcconfig"; path = "Target Support Files/Pods-TimesReader/Pods-TimesReader.release.xcconfig"; sourceTree = "<group>"; };
 		4AABAE99229BF94F00ADC42E /* TimesReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimesReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AABAE9C229BF94F00ADC42E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4AABAE9E229BF94F00ADC42E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4AABAEA1229BF94F00ADC42E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AABAEA4229BF94F00ADC42E /* TimesReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimesReader.xcdatamodel; sourceTree = "<group>"; };
 		4AABAEA6229BF95100ADC42E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AABAEA9229BF95100ADC42E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AABAEAB229BF95100ADC42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AABAEB1229BF98F00ADC42E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4AABAEB3229BFD1800ADC42E /* MostEmailedTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostEmailedTableTableViewController.swift; sourceTree = "<group>"; };
+		4AABAEB5229BFDCA00ADC42E /* NYTimesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimesData.swift; sourceTree = "<group>"; };
+		4E29B9755287CBA17815F070 /* Pods-TimesReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimesReader.debug.xcconfig"; path = "Target Support Files/Pods-TimesReader/Pods-TimesReader.debug.xcconfig"; sourceTree = "<group>"; };
+		D4871DF9BED181227F4E1D68 /* Pods_TimesReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimesReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362365CC4BA337664C2C6392 /* Pods_TimesReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19D0239289E63C6D2F9F4F81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E29B9755287CBA17815F070 /* Pods-TimesReader.debug.xcconfig */,
+				3904E76711C69AF03FE585FB /* Pods-TimesReader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4AABAE90229BF94F00ADC42E = {
 			isa = PBXGroup;
 			children = (
 				4AABAE9B229BF94F00ADC42E /* TimesReader */,
 				4AABAE9A229BF94F00ADC42E /* Products */,
+				19D0239289E63C6D2F9F4F81 /* Pods */,
+				FE1E6A275DBF26E12C6C9683 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +77,24 @@
 			isa = PBXGroup;
 			children = (
 				4AABAE9C229BF94F00ADC42E /* AppDelegate.swift */,
-				4AABAE9E229BF94F00ADC42E /* ViewController.swift */,
 				4AABAEA0229BF94F00ADC42E /* Main.storyboard */,
 				4AABAEA6229BF95100ADC42E /* Assets.xcassets */,
 				4AABAEA8229BF95100ADC42E /* LaunchScreen.storyboard */,
 				4AABAEAB229BF95100ADC42E /* Info.plist */,
 				4AABAEA3229BF94F00ADC42E /* TimesReader.xcdatamodeld */,
+				4AABAEB1229BF98F00ADC42E /* MainViewController.swift */,
+				4AABAEB3229BFD1800ADC42E /* MostEmailedTableTableViewController.swift */,
+				4AABAEB5229BFDCA00ADC42E /* NYTimesData.swift */,
 			);
 			path = TimesReader;
+			sourceTree = "<group>";
+		};
+		FE1E6A275DBF26E12C6C9683 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4871DF9BED181227F4E1D68 /* Pods_TimesReader.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AABAEAE229BF95100ADC42E /* Build configuration list for PBXNativeTarget "TimesReader" */;
 			buildPhases = (
+				FB8F1AD3F720CEDAEC3D932D /* [CP] Check Pods Manifest.lock */,
 				4AABAE95229BF94F00ADC42E /* Sources */,
 				4AABAE96229BF94F00ADC42E /* Frameworks */,
 				4AABAE97229BF94F00ADC42E /* Resources */,
+				269F0A7ADE71A799636CE772 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +165,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		269F0A7ADE71A799636CE772 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimesReader/Pods-TimesReader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TimesReader/Pods-TimesReader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TimesReader/Pods-TimesReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB8F1AD3F720CEDAEC3D932D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimesReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4AABAE95229BF94F00ADC42E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AABAE9F229BF94F00ADC42E /* ViewController.swift in Sources */,
+				4AABAEB2229BF98F00ADC42E /* MainViewController.swift in Sources */,
 				4AABAEA5229BF94F00ADC42E /* TimesReader.xcdatamodeld in Sources */,
+				4AABAEB6229BFDCA00ADC42E /* NYTimesData.swift in Sources */,
 				4AABAE9D229BF94F00ADC42E /* AppDelegate.swift in Sources */,
+				4AABAEB4229BFD1800ADC42E /* MostEmailedTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +360,7 @@
 		};
 		4AABAEAF229BF95100ADC42E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E29B9755287CBA17815F070 /* Pods-TimesReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +379,7 @@
 		};
 		4AABAEB0229BF95100ADC42E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3904E76711C69AF03FE585FB /* Pods-TimesReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
